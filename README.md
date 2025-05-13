@@ -60,28 +60,22 @@ Open chatbot.ipynb with Jupyter or VS Code. It includes:
 ak_bert.py
 Implements a lightweight BERT-style model from scratch:
 
-Multi-head self-attention
-
-Transformer block
-
-Embeddings
-
-Final prediction layer
+- Multi-head self-attention
+- Transformer block
+- Embeddings
+- Final prediction layer
 
 nlp.py
 Includes utility functions for:
-
-Word tokenization
-
-Padding sequences
-
-Vocabulary indexing
+- Word tokenization
+- Padding sequences
+- Vocabulary indexing
 
 scraper.py
-Scrapes text content (e.g., Wikipedia) to expand training data or create summaries.
+- Scrapes text content (e.g., Wikipedia) to expand training data or create summaries.
 
 summarie.py
-Applies the trained model to perform rudimentary text summarization.
+- Applies the trained model to perform rudimentary text summarization.
 
 🧪 Experimental Files
 le_ak_bert.py, v2.py, v3.py
@@ -90,17 +84,3 @@ Use these to explore variants or extend functionality.
 
 📚 Example Training Text
 The file input.txt includes raw training text. You can replace this with your own dataset to retrain or fine-tune the model.
-
-❗ Limitations
-Not optimized for production or large datasets
-
-No GPU acceleration enabled by default
-
-Trained on extremely limited data
-
-This is an educational project, not a full-scale NLP solution.
-
-📜 License
-This project is under the MIT License. You are free to use and modify it for learning or prototyping.
-
-Feel free to copy and paste the content directly into your `README.md` file. Let me know if you need further modifications!
