@@ -3,7 +3,7 @@
 A minimalist implementation of a Transformer-based language model inspired by BERT and GPT architectures. This project is designed for experimentation, education, and understanding the core building blocks of Transformer models using PyTorch and Flask.
 
 ## 📁 Project Structure
-
+'''
 BERT_GPT/
 ├── ak_bert.py # Core transformer model implementation
 ├── le_ak_bert.py # Variant of the core model with slight modifications
@@ -15,7 +15,7 @@ BERT_GPT/
 ├── scraper.py # Web scraping tool (e.g., Wikipedia)
 ├── summarie.py # Text summarization using the model
 ├── v2.py / v3.py # Experimental variants of the training/model pipeline
-
+'''
 
 ## 🔧 Installation
 
