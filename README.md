@@ -25,26 +25,25 @@ Make sure Python 3.7+ is installed along with PyTorch and Flask.
 git clone https://github.com/levxn/Tiny_GPT.git
 cd Tiny_GPT/BERT_GPT
 pip install torch flask
+```
 
 🚀 Getting Started
 1. Training the Transformer
 Train a simple transformer-based language model using:
+```
 python all_code.py
-
+```
 This script:
-
-Tokenizes input.txt
-
-Builds a vocabulary
-
-Trains the model using a simple training loop
-
-Saves model weights
+- Tokenizes input.txt
+- Builds a vocabulary
+- Trains the model using a simple training loop
+- Saves model weights
 
 2. Running the Web Chatbot
 To launch a basic chatbot using Flask:
+```
 python app.py
-
+```
 Then open http://localhost:5000 in your browser to interact with the model.
 
 3. Notebook Exploration
@@ -52,13 +51,10 @@ For an interactive demo using a notebook:
 
 Open chatbot.ipynb with Jupyter or VS Code. It includes:
 
-Data processing
-
-Model instantiation
-
-Training logic
-
-Sample inference
+- Data processing
+- Model instantiation
+- Training logic
+- Sample inference
 
 🧠 Core Components
 ak_bert.py
